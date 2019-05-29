@@ -1,0 +1,49 @@
+.logo{
+    font-size: 25px;
+    background-color: aqua;
+    height: 60px;
+}
+.tabs{
+    background-color: aquamarine;
+    height: 40px;   
+}
+#tab-nav a{
+    margin-top: 3px;
+}
+.tabs a{
+    text-decoration: none;
+    margin: 12px;
+    margin-left: 80px;
+    text-align: center;
+    padding-top: 3px;
+    position: relative;
+    margin-top: 100em;
+    margin-top: 10px;
+    
+    
+}
+.tabs a:hover{
+    color: chartreuse;
+    transform: none;
+    
+}
+.tabs a:active {
+    color: chartreuse;
+    transform: none;
+    text-decoration: none;
+    
+}
+.talk{
+    font-size: 15px;
+    margin-right: 50px;
+    padding: 5px;
+    text-align: right;
+}
+.talk a{
+    text-decoration: none;
+    color: brown;
+}
+.talk a:hover{
+    background-color: black;
+    height: 100px;
+}
