@@ -6,10 +6,9 @@
 .tabs{
     background-color: aquamarine;
     height: 40px;   
+
 }
-#tab-nav a{
-    margin-top: 3px;
-}
+
 .tabs a{
     text-decoration: none;
     margin: 12px;
@@ -17,8 +16,8 @@
     text-align: center;
     padding-top: 3px;
     position: relative;
-    margin-top: 100em;
-    margin-top: 10px;
+    margin-top: 150px;
+    
     
     
 }
@@ -41,9 +40,10 @@
 }
 .talk a{
     text-decoration: none;
-    color: brown;
+    border: 7px solid;
+    background-color: blueviolet;
+    border-radius: 7px;
+    
+    
 }
-.talk a:hover{
-    background-color: black;
-    height: 100px;
-}
+

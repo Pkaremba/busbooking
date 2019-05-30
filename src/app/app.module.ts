@@ -10,7 +10,7 @@ import { ProgramComponent } from './program/program.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactComponent } from './contact/contact.component';
 import { RouterModule } from '@angular/router';
-import { TalkComponent } from './talk/talk.component';
+
 
 @NgModule({
   declarations: [
@@ -20,8 +20,8 @@ import { TalkComponent } from './talk/talk.component';
     PlanComponent,
     ProgramComponent,
     AboutUsComponent,
-    ContactComponent,
-    TalkComponent
+    ContactComponent
+    
   ],
   imports: [
     BrowserModule,
