@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlanComponent implements OnInit {
 
+  place = ['Nairobi', 'Isiolo', 'Marsabit', 'Moyale'];
+
   constructor() { }
 
   ngOnInit() {

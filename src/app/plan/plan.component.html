@@ -1,11 +1,31 @@
 <div class="form">
 <form class="formgroup">
-  <div class="">
+  <div class="form-group">
     <label>Name</label>
-    <input type="text" name="" value="name">
+    <input class="forminput" type="text" name="" value="name">
   </div>
-  <div>
-    <label >From</label>
+
+  <div class="form-group">
+    <label >Id</label>
+    <input class="forminput"type="text" name="id" value="">
+  </div>
+  <div class="form-group">
+  <label>Phone</label>
+  <input type="text" class="forminput">
+  </div>
+
+  <div class="form-group">
+    <select class="custom-select">
+      <option selected>From</option>
+      <option *ngFor="let places of place">{{ places }}</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <select class="custom-select">
+      <option selected>To</option>
+      <option *ngFor="let places of place">{{ places }}</option>
+    </select>
   </div>
 </form>
 </div>
