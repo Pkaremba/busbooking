@@ -6,6 +6,7 @@
 .tabs{
     background-color: aquamarine;
     height: 40px;   
+    
 
 }
 
@@ -16,7 +17,7 @@
     text-align: center;
     padding-top: 3px;
     position: relative;
-    margin-top: 150px;
+    margin-top: 15px;
     
     
     
@@ -45,5 +46,14 @@
     border-radius: 7px;
     
     
+}
+.footer{
+    background-color: rgb(103, 201, 201);
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+#text{
+    font-size: 12px;
 }
 
