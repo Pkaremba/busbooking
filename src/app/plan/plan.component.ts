@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
-import 'rxjs/add/operator/map';
+
 import { mapChildrenIntoArray } from '@angular/router/src/url_tree';
 import { Subscriber } from 'rxjs';
 
@@ -17,11 +16,9 @@ export class PlanComponent implements OnInit {
 
   seats = ["1A","1B","2A","2B","3A","3B","4A","4B"];
 
-  constructor(private http: HttpClientModule) { }
+  constructor() { }
   ngOnInit() {
-    this.http.get("http://jsonplaceholder.typicode.com/users");
-    map((response)=> response.json())
-    Subscribe((data) => console.log(data))
+    
   }
 
 }

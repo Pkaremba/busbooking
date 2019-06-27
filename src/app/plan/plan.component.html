@@ -16,6 +16,7 @@
 
   <div class="form-group" id="from">
     <select class="custom-select">
+      
       <option selected>From</option>
       <option *ngFor="let places of place">{{ places }}</option>
     </select>
@@ -27,11 +28,6 @@
       <option *ngFor="let places of place">{{ places }}</option>
     </select>
   </div>
-
-  <div>
-    <label Onclick>{{Price}}</label>
-    <input type="text" class="price" value="{{ price }}">
-  </div>
   
   <div class="seats">
     <select id="">
@@ -39,6 +35,13 @@
       <option *ngFor="let seat of seats">{{seat}}</option>
     </select>
   </div>
+
+  <div>
+    <label Onclick>{{Price}}</label>
+    <input type="text" class="price" value="{{ price }}">
+  </div>
+  
+  
 </form>
 <div class="button">
   <button class="book" onclick="click">Book</button>
