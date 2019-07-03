@@ -12,6 +12,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactComponent } from './contact/contact.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { PComponent } from './p/p.component';
 
 
 
@@ -24,7 +25,8 @@ import { FormsModule } from '@angular/forms';
     PlanComponent,
     ProgramComponent,
     AboutUsComponent,
-    ContactComponent
+    ContactComponent,
+    PComponent
     
   ],
   imports: [
